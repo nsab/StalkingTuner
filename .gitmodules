@@ -1,0 +1,3 @@
+[submodule "modem.js"]
+	path = modem.js
+	url = https://github.com/five23/modem.js.git
