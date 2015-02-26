@@ -1,3 +1,6 @@
 [submodule "modem.js"]
 	path = modem.js
 	url = https://github.com/five23/modem.js.git
+[submodule "waterfall"]
+	path = waterfall
+	url = https://github.com/elafargue/html5
