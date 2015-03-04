@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="radio.css">
+		<script src="waterfall/waterfall2/js/lib/dsp.js"></script>
+		<script src="waterfall/waterfall2/js/lib/resampler.js"></script>
+		<script src="modem.js/afsk-decoder.js"></script>
+		<script src="modem.js/afsk-filters.js"></script>
+		<script src="multimon.js/afsk_demod12.js"></script>
+		<script src="multimon.js/filter.js"></script>
+		<script src="multimon.js/hdlc.js"></script>
+		<script src="radio.js"></script>
+	</head>
+	<body>
+		Protocol:
+		<select id="protocol">
+			<option>APRS</option>
+		</select>
+		Strict: <input type="checkbox" id="protocol_strict">
+		<br>
+		Filters:<br>
+		Callsign: <input type="text" id="callsign">
+		Strict: <input type="checkbox" id="callsign_strict" disabled>
+		<br>
+		<div id="radiodata"></div>
+		<br>
+		<canvas id="wavStrip"></canvas>
+	</body>
+</html>
