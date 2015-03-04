@@ -257,12 +257,6 @@ NSABRadioUI.prototype = {
 			//console.log(str);
 			
 			var scrollBottom = (document.getElementById('radio-text-content').scrollTop + document.getElementById('radio-text-content').clientHeight == document.getElementById('radio-text-content').scrollHeight);
-			console.log(document.getElementById('radio-text-content').scrollTop);
-			console.log(document.getElementById('radio-text-content').scrollHeight);
-			console.log(document.getElementById('radio-text-content').clientHeight); // yes?
-			console.log(document.getElementById('radio-text-content').offsetHeight); // no
-			console.log(document.getElementById('radio-text-content').scrollHeight); // no
-			console.log(scrollBottom);
 			
 			var div = document.createElement('div');
 			div.innerHTML = data.data.displayString;
